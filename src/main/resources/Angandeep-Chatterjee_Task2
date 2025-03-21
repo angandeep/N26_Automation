@@ -1,0 +1,30 @@
+Task2/
+├── src
+│   ├── main
+│   │   └── java
+│   │       └── com
+│   │           └── n26
+│   │               └── monefy
+│   │                   ├── pages
+│   │                   │   ├── HomePage.java
+│   │                   │   ├── SubscriptionPage.java
+│   │                   │   └── BudgetPage.java
+│   │                   └── utils
+│   │                       └── AppiumDriverSetup.java
+│   ├── test
+│   │   ├── java
+│   │   │   └── com
+│   │   │       └── n26
+│   │   │           └── monefy
+│   │   │               └── steps
+│   │   │                   └── MonefySteps.java
+│   │   └── resources
+│   │       └── features
+│   │           ├── SubscribeFlow.feature
+│   │           ├── ExpenseFlow.feature
+│   │           └── BudgetFlow.feature
+├── reports
+│   └── test-report.html
+├── Dockerfile
+├── pom.xml
+└── README.md
